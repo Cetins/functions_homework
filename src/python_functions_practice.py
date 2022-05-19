@@ -11,7 +11,7 @@ def multiply(x, y):
     return x * y
 
 def divide(x, y):
-    return x / y
+    return x // y
 
 def length_of_string(string):
     return len(string)

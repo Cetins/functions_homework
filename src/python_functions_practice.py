@@ -46,9 +46,22 @@ def reverse_string(word):
         reversed_string += char
     return reversed_string
 
+    # solution from w3schools but returns None
+    # check later on with different functions
+# def reverse_string(word):
+#     txt = word
+#     print(txt[::-1])
+
+#   mentor solution
+# def string_reverse(str):
+#     string_reversed = ''
+#     index = len(str)
+
+#     while index > 0:
+#         string_reversed = string_reversed + str [ index -1 ]
+#         index = index -1
+
+#     return string_reversed    
+
 def fahrenheit_to_celcius(temperature):
     return round((temperature - 32) * 5/9)
-
-    
-
-
